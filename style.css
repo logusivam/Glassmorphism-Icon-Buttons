@@ -39,17 +39,17 @@ body
 /* back color */
 .btn-back-1
 {
-    background: linear-gradient(135deg, #4682eb -20%, #01beff 120%);
+    background: linear-gradient(135deg, #e046eb -20%, #d501ff 120%);
 }
 
 .btn-back-2
 {
-    background: linear-gradient(135deg, #5c46eb -20%, #013fff 120%);
+    background: linear-gradient(135deg, #4bdfe7 -20%, #01f2ff 120%);
 }
 
 .btn-back-3
 {
-    background: linear-gradient(135deg, #ebe046 -20%, #ffac01 120%);
+    background: linear-gradient(135deg, #eb46a1 -20%, #ff0173 120%);
 }
 
 /* frame of the button start */
@@ -93,7 +93,24 @@ body
 
 /* frame of the button end */
 
+/* hover effect */
 .block-container:hover .btn-back
 {
-    transform: translateZ(20px);
+    transform: translateZ(20px) rotateZ(15deg) rotateX(-20deg) rotateY(-20deg);
+}
+
+.block-container:hover .btn-front
+{
+    transform: translateZ(80px) translateY(-5px) rotateX(15deg) rotateY(-15deg);
+}
+
+/* hover effect end */
+
+/* making resposnive */
+@media (max-width: 600px)
+{
+    body
+    {
+        flex-direction: column;
+    }
 }
