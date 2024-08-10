@@ -52,7 +52,7 @@ body
     background: linear-gradient(135deg, #ebe046 -20%, #ffac01 120%);
 }
 
-/* front side button */
+/* frame of the button start */
 .btn-front
 {
     position: absolute;
@@ -81,4 +81,19 @@ body
     height: inherit;
     fill: none;
     stroke-width: 4;
+}
+
+/* icon position */
+.btn-front svg.icon
+{
+    position: absolute;
+    inset: 50% 0 0 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* frame of the button end */
+
+.block-container:hover .btn-back
+{
+    transform: translateZ(20px);
 }
