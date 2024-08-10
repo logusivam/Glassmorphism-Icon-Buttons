@@ -49,5 +49,36 @@ body
 
 .btn-back-3
 {
-    background: linear-gradient(135deg, #ebe046, );
+    background: linear-gradient(135deg, #ebe046 -20%, #ffac01 120%);
+}
+
+/* front side button */
+.btn-front
+{
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background-color: #ffffff33;
+    width: inherit;
+    height: inherit;
+    border-radius: 32px;
+    backdrop-filter: blur(20px);
+    transition: 250ms;
+    transform-style: preserve-3d;
+    transform-origin: top left;
+    overflow: hidden;
+}
+
+.btn-front svg.frame
+{
+    width: inherit;
+    height: inherit;
+}
+
+.btn-front svg.frame rect
+{
+    width: inherit;
+    height: inherit;
+    fill: none;
+    stroke-width: 4;
 }
