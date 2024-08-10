@@ -101,7 +101,7 @@ body
 
 .block-container:hover .btn-front
 {
-    transform: translateZ(80px) translateY(-5px) rotateX(15deg) rotateY(-15deg);
+    transform: translateZ(80px) translateY(-5px) rotateX(15deg) rotateY(15deg);
 }
 
 /* hover effect end */
