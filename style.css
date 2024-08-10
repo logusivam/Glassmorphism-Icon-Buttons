@@ -33,4 +33,5 @@ body
     transform-style: preserve-3d;
     transform-origin: bottom right;
     transform: rotateZ(15deg);
+    will-change: transform;
 }
