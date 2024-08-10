@@ -35,3 +35,19 @@ body
     transform: rotateZ(15deg);
     will-change: transform;
 }
+
+/* back color */
+.btn-back-1
+{
+    background: linear-gradient(135deg, #4682eb -20%, #01beff 120%);
+}
+
+.btn-back-2
+{
+    background: linear-gradient(135deg, #5c46eb -20%, #013fff 120%);
+}
+
+.btn-back-3
+{
+    background: linear-gradient(135deg, #ebe046, );
+}
